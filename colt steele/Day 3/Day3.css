@@ -1,0 +1,14 @@
+.words {
+    font-weight: bold;
+}
+
+td,th { 
+text-align:center;
+background-color: rgba(250,0,0,0.4);
+border: 1px solid blue;
+}
+
+.alt{
+    background-color: grey;
+}
+

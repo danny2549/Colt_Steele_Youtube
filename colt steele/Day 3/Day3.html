@@ -3,109 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table</title>
+    <title>Tables</title>
+    <link rel="stylesheet" href="Day3.css">
 </head>
 <body>
     <h1>Tables Exercise</h1>
     <table>
-        <caption>Data about the planets of our solar system(planetary facts taken from <a href = 
-            "https://www.google.com">Nas's Planetary Fact Sheet - Metric).</a></caption>
-    <tr>
+        <caption>Data about the planets of our solar system (Planetary facts taken from <a
+                href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
+        </caption>
         <thead>
-            <th></th>
-            <th rowspan="2">Name</th>
-            <th>Mass(10<sup>24</sup>kg</th>
-            <th>Diamter(km)</th>
-            <th>Density (kg/m<sup>3</sup>)</th>
-            <th>Gravity(m/n<sup>2</sup>)</th>
+            <tr>
+                <th colspan="2"></th>
+                <th class = "alt">Name</th>
+                <th class = "alt">Mass (10<sup>24</sup>kg)</th>
+                <th class = "alt">Diameter (km)</th>
+                <th class = "alt">Density (kg/m<sup>3</sup>)</th>
+                <th class = "alt">Gravity (m/s<sup>2</sup>)</th>
+            </tr>
         </thead>
-    </tr>
-    
-    <tr>
-        <td></td>
-        <td>Mercury</td>
-        <td>0.300</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-    </tr>
+        <tbody>
+            <tr>
+                <td colspan="2" rowspan="4"class = "words">Terrestrial Planets</td>
+                <td class = "words">Mercury</td>
+                <td>0.330</td>
+                <td>4,879</td>
+                <td>5427</td>
+                <td>3.7</td>
+            </tr>
 
-    <tr>
-        <td>Venus</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-    </tr>
+            <tr class = "alt">
+                <td class = "words">Venus</td>
+                <td>4.87</td>
+                <td>12,104</td>
+                <td>5243</td>
+                <td>8.9</td>
+            </tr>
 
-    <tr>
-        <td>Earth</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-    </tr>
+            <tr>
+                <td class = "words">Earth</td>
+                <td>5.97</td>
+                <td>12,756</td>
+                <td>5514</td>
+                <td>9.8</td>
+            </tr>
 
-     <tr>
-        <td>Mars</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-    </tr>
+            <tr class = "alt">
+                <td class = "words">Mars</td>
+                <td>5.642</td>
+                <td>6,982</td>
+                <td>3933</td>
+                <td>3.7</td>
+            </tr>
 
-    <tr>
-        <td>Jupiter</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-    </tr>
-    
-    <tr>
-        <td>Saturn</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-    </tr>
-    
-    <tr>
-        <td>Uranus</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-    </tr>
-    
-    <tr>
-        <td>Neptune</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-        <td>4.555</td>
-    </tr>
+            <tr>
+                <td colspan="1"rowspan = "4" class = "words">Jovian Planets</td>
+                <td colspan="1" rowspan="2"class = "words"> Gas Giants</td>
+                <td class = "words">Jupiter</td>
+                <td>1898</td>
+                <td>142,984</td>
+                <td>1326</td>
+                <td>23.1</td>
+            </tr>
 
-    <tr>
-        <tfoot>
-            <td>Pluto</td>
-            <td>4.555</td>
-            <td>4.555</td>
-            <td>4.555</td>
-            <td>4.555</td>
-            <td>4.555</td>
-        </tfoot>
-    </tr>
+            <tr class = "alt">
+            <td class = "words">Saturn</td>
+                <td>568</td>
+                <td>120,536</td>
+                <td>687</td>
+                <td>9.0</td>
+            </tr>
 
+            <tr>
+                <td colspan="1" rowspan="2"class = "words">Ice Giants</td>
+                <td class = "words">Uranus</td>
+                <td>86.8</td>
+                <td>51,118</td>
+                <td>1271</td>
+                <td>8.7</td>
+            </tr>
 
+            <tr class = "alt">
+                <td class = "words">Neptune</td>
+                <td>102</td>
+                <td>49,528</td>
+                <td>1638</td>
+                <td>11.0</td>
+            </tr>
 
+            <tr>
+                <td colspan="2"class = "words">Dwarf Planets</td>
+                <td class = "words">Pluto</td>
+                <td>0.0146</td>
+                <td>2,370</td>
+                <td>2095</td>
+                <td>0.7</td>
+            </tr>
+        </tbody>
     </table>
+
+
+
 </body>
 </html>
